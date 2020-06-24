@@ -1,0 +1,8 @@
+{
+  "name": "rocketseat2.0",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/iidutra/bootcamp2.0.git",
+  "author": "iidutra <igordutra07@gmail.com>",
+  "license": "MIT"
+}
