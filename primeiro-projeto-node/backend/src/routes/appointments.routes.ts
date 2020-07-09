@@ -22,7 +22,6 @@ appointmentsRouter.get('/', async (request, response) => {
 });
 
 appointmentsRouter.post('/', async (request, response) => {
-  try {
 
     const { provider_id, date } = request.body;
 
@@ -36,11 +35,6 @@ appointmentsRouter.post('/', async (request, response) => {
     });
 
     return response.json(appointment);
-  } catch (err) {
-    return response
-      .status(400)
-      .json({ message: 'This appointment is already booked' });
-  }
 });
 
 export default appointmentsRouter;

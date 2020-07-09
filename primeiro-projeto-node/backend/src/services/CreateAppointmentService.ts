@@ -3,6 +3,8 @@ import {getCustomRepository} from 'typeorm';
 
 import Appointment from '../models/Appointment';
 import AppointmentsRepository from '../repositories/AppointmentsRepository';
+import AppError from '../errors/AppError'
+
 
 interface RequestDTO {
   provider_id: string;
